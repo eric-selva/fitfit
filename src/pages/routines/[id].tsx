@@ -6,6 +6,8 @@ import routines from "@/data/routines";
 import categories from "@/data/categories";
 import RoutinesWrapper from "./RoutinesWrapper.style";
 import useLocalStorage from "@/hooks/useLocalStorage";
+import { updateStoredDay } from "@/hooks/useProgress";
+import { LUMBAR_ROUTINE_IDS } from "@/utils/progress";
 
 interface Params {
 	id: string;
@@ -67,6 +69,13 @@ const Routines: React.FC = () => {
 		setRoutineStatus(id, true);
 		incrementRoutineCompletionCount(id);
 		setCompletedRoutines((prev) => [...prev, id]);
+		// Marca el objetivo del día en el calendario de progreso.
+		const routine = routines.find((r) => r.id === id);
+		if (LUMBAR_ROUTINE_IDS.includes(id)) {
+			updateStoredDay(new Date(), { lumbar: id });
+		} else if (routine?.category === 1) {
+			updateStoredDay(new Date(), { routine: id });
+		}
 	};
 
 	const handleMouseDown = (id: number) => {

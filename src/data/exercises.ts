@@ -404,7 +404,7 @@ const exercises: Exercise[] = [
 		category: 1,
 		subCategory: 8,
 		description:
-			"Sostén una mancuerna con ambas manos y realiza una sentadilla, bajando hasta que los muslos estén paralelos al suelo.",
+			"Sostén una mancuerna vertical pegada al pecho (goblet) y siéntate hacia atrás hasta rozar el banco, con el pecho alto y la espalda neutra. Sube empujando con los talones.",
 	},
 	{
 		id: 44,
@@ -441,7 +441,7 @@ const exercises: Exercise[] = [
 		category: 1,
 		subCategory: 13,
 		description:
-			"Sostén una mancuerna en cada mano a la altura de los hombros y presiona hacia arriba hasta que los brazos estén completamente extendidos.",
+			"Sentado en el banco con respaldo, sostén una mancuerna en cada mano a la altura de los hombros y presiona hacia arriba hasta extender los brazos. Costillas abajo, sin arquear la zona lumbar.",
 	},
 	{
 		id: 48,
@@ -615,6 +615,115 @@ const exercises: Exercise[] = [
 		subCategory: 8,
 		description:
 			"Con los pies más anchos que los hombros y las puntas hacia afuera, baja las pesas manteniendo la espalda recta y empuja con las piernas al subir.",
+	},
+	// Nuevos (rutina casa, amigable para lumbar)
+	{
+		id: 67,
+		name: "Split Squat (zancada estática)",
+		img: "/images/exercises/legs/split-squat.gif",
+		category: 1,
+		subCategory: 8,
+		description:
+			"Con una mancuerna en cada mano y un pie adelantado, baja la rodilla trasera hacia el suelo sin mover los pies. Torso erguido y peso en la pierna delantera.",
+	},
+	{
+		id: 68,
+		name: "Lying Triceps Extension",
+		img: "/images/exercises/triceps/lying-triceps-extension.gif",
+		category: 1,
+		subCategory: 15,
+		description:
+			"Tumbado en el banco con una mancuerna en cada mano y los brazos estirados sobre el pecho, flexiona los codos bajando las pesas a los lados de la cabeza y vuelve a extender. Codos quietos.",
+	},
+	{
+		id: 69,
+		name: "Dumbbell Tate Press",
+		img: "/images/exercises/triceps/tate-press.gif",
+		category: 1,
+		subCategory: 15,
+		description:
+			"Tumbado en el banco con las mancuernas sobre el pecho y las palmas hacia los pies, flexiona los codos hacia fuera bajando las mancuernas hasta tocar el pecho y vuelve a extender. Hombros quietos y espalda apoyada.",
+	},
+	{
+		id: 70,
+		name: "Kneeling Lat Pulldown with Band",
+		img: "/images/exercises/back/kneeling-lat-pulldown-band.gif",
+		category: 1,
+		subCategory: 10,
+		description:
+			"De rodillas frente a la goma anclada en alto, tira llevando los codos hacia las costillas y juntando escápulas. Abdomen apretado, sin arquear la espalda.",
+	},
+	{
+		id: 71,
+		name: "Seated Row with Band",
+		img: "/images/exercises/back/band-seated-row.gif",
+		category: 1,
+		subCategory: 10,
+		description:
+			"Sentado en el banco con la goma anclada a la altura del pecho, tira hacia el abdomen juntando escápulas. Tronco quieto, sin balancearte.",
+	},
+	{
+		id: 72,
+		name: "Lying Leg Curl with Band",
+		img: "/images/exercises/legs/band-lying-leg-curl.gif",
+		category: 1,
+		subCategory: 8,
+		description:
+			"Boca abajo con la goma anclada en los tobillos, flexiona las rodillas llevando los talones hacia los glúteos. Cadera pegada al suelo.",
+	},
+	{
+		id: 73,
+		name: "Prone Rear Delt Fly",
+		img: "/images/exercises/shoulders/rear-delt-fly.gif",
+		category: 1,
+		subCategory: 13,
+		description:
+			"Con el pecho apoyado en el banco (inclinado o plano) y una mancuerna ligera en cada mano, abre los brazos hacia los lados con los codos semiflexionados hasta la altura de los hombros.",
+	},
+	{
+		id: 74,
+		name: "Band Pull-Apart",
+		img: "/images/exercises/shoulders/band-pull-apart.gif",
+		category: 1,
+		subCategory: 13,
+		description:
+			"De pie con la goma agarrada a la altura de los hombros y brazos estirados, sepárala abriendo los brazos y juntando escápulas.",
+	},
+	{
+		id: 75,
+		name: "Lateral Band Walk",
+		img: "/images/exercises/legs/lateral-band-walk.gif",
+		category: 1,
+		subCategory: 9,
+		description:
+			"Con la goma alrededor de las rodillas o tobillos y en semisentadilla, da pasos laterales manteniendo la tensión. Rodillas hacia fuera.",
+	},
+	{
+		id: 76,
+		name: "Lying Hamstring Stretch",
+		img: "/images/exercises/stretching/back/lying-hamstring-stretch.gif",
+		category: 2,
+		subCategory: 10,
+		description:
+			"Tumbado boca arriba, eleva una pierna estirada ayudándote de una goma o toalla en el pie hasta notar tensión detrás del muslo. La otra pierna y la zona lumbar se quedan apoyadas en el suelo.",
+	},
+	{
+		id: 77,
+		name: "Single Knee to Chest",
+		img: "/images/exercises/stretching/back/single-knee-to-chest.gif",
+		category: 2,
+		subCategory: 10,
+		description:
+			"Tumbado boca arriba, lleva una rodilla hacia el pecho abrazándola con las manos, sin despegar la cabeza. Respira hondo y relaja la zona lumbar. Cambia de pierna.",
+	},
+	{
+		id: 78,
+		name: "Single Leg Glute Bridge",
+		img: "/images/exercises/core/single-leg-bridge.gif",
+		category: 1,
+		subCategory: 9,
+		description:
+			"Tumbado boca arriba con una pierna estirada al aire, eleva la cadera empujando con el talón apoyado hasta alinear rodilla, cadera y hombros. Pelvis nivelada y sin arquear la zona lumbar.",
 	},
 ];
 

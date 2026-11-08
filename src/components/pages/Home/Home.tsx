@@ -20,10 +20,10 @@ const Home: React.FC = () => {
 							<img src="./images/kettlebell.png" alt="exercises" />
 							<p>Ejercicios</p>
 						</div>
-						<div className="create">
-							<img src="./images/gloves.png" alt="create" />
-							<p>Crear</p>
-						</div>
+						<Link className="create" href="/progreso">
+							<img src="./images/gloves.png" alt="progreso" />
+							<p>Progreso</p>
+						</Link>
 					</div>
 					<div className="stretching">
 						<Link href="/routines/2">
