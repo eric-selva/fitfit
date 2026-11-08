@@ -4,6 +4,8 @@ const LayoutWrapper = styled.div`
   display: flex;
   flex-direction: column;
   height: 100vh;
+  /* Altura visible real en móvil (sin las barras del sistema/navegador) */
+  height: 100dvh;
   max-width: 500px;
   margin: 0 auto;
 `;

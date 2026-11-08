@@ -208,6 +208,8 @@ export const ProgressWrapper = styled.div`
     position: relative;
     flex-shrink: 0;
     margin: 6px 14px 12px;
+    /* Por si el móvil dibuja la navegación encima del contenido */
+    margin-bottom: calc(12px + env(safe-area-inset-bottom, 0px));
     padding: 8px 10px 10px;
     background: rgb(207 217 223 / 96%);
     ${hardBorder}
