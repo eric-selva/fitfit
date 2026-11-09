@@ -150,16 +150,18 @@ const routines: Routine[] = [
 		subtitle: "Movilidad y core",
 		category: 2,
 		subcategory: 10,
+		// Primero estiramientos, luego esfuerzo de menos a más; Pallof el último.
 		exercises: [
 			exercise(14, [1, 60, 0, 0], true), // Cat-Cow
 			exercise(20, [2, 10, 0, 20]), // Pelvic Tilt
-			exercise(55, [3, 8, 0, 30]), // Dead Bug (por lado)
-			exercise(56, [3, 12, 0, 30]), // Glute Bridge (sin peso al principio)
-			exercise(60, [3, 20, 0, 20], true), // Side Plank (por lado)
 			exercise(9, [2, 30, 0, 0], true), // Hip Flexor (por lado)
 			exercise(76, [2, 30, 0, 0], true), // Lying Hamstring Stretch (por lado)
 			exercise(77, [2, 30, 0, 0], true), // Single Knee to Chest (por lado)
 			exercise(15, [1, 60, 0, 0], true), // Child's Pose
+			exercise(56, [3, 12, 0, 30]), // Glute Bridge (sin peso al principio)
+			exercise(55, [3, 8, 0, 30]), // Dead Bug (por lado)
+			exercise(60, [3, 20, 0, 20], true), // Side Plank (por lado)
+			exercise(57, [3, 10, 0, 30]), // Pallof Press (por lado)
 		],
 	},
 	{
@@ -168,16 +170,18 @@ const routines: Routine[] = [
 		subtitle: "Estabilidad y glúteo",
 		category: 2,
 		subcategory: 14,
+		// Primero estiramientos, luego esfuerzo de menos a más; Pallof el último.
+		// Puente de glúteo a dos piernas en vez del de una pierna (molestaba la lumbar).
 		exercises: [
+			exercise(14, [1, 60, 0, 0], true), // Cat-Cow
 			exercise(24, [2, 8, 0, 0]), // Thoracic Spine Rotation (por lado)
-			exercise(13, [3, 8, 0, 30]), // Bird-Dog (por lado)
-			exercise(57, [3, 10, 0, 30]), // Pallof Press (por lado)
-			exercise(78, [3, 10, 0, 30]), // Single Leg Glute Bridge (por lado)
-			exercise(5, [2, 15, 0, 20]), // Clamshells (por lado)
-			exercise(50, [3, 20, 0, 30], true), // Plank
 			exercise(21, [2, 30, 0, 0], true), // Piriformis Stretch (por lado)
 			exercise(76, [2, 30, 0, 0], true), // Lying Hamstring Stretch (por lado)
-			exercise(14, [1, 60, 0, 0], true), // Cat-Cow
+			exercise(5, [2, 15, 0, 20]), // Clamshells (por lado)
+			exercise(13, [3, 8, 0, 30]), // Bird-Dog (por lado)
+			exercise(56, [3, 12, 0, 30]), // Glute Bridge
+			exercise(50, [3, 20, 0, 30], true), // Plank
+			exercise(57, [3, 10, 0, 30]), // Pallof Press (por lado)
 		],
 	},
 ];
