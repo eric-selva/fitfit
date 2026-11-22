@@ -292,7 +292,7 @@ const DetailSection: React.FC<{ detail: MonthDetail }> = ({ detail }) => (
 			</div>
 			<div>
 				<span className="digits">{detail.steps.overGoal}</span>
-				<small>días +15k</small>
+				<small>días +10k</small>
 			</div>
 			<div>
 				<span className="digits">{Math.round(detail.steps.km)}</span>

@@ -1,4 +1,4 @@
-export const STEP_GOAL = 15000;
+export const STEP_GOAL = 10000;
 export const STEP_INCREMENT = 500;
 export const LUMBAR_ROUTINE_IDS = [10, 11];
 export const PROGRESS_KEY_PREFIX = "progress-";
